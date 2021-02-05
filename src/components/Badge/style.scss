@@ -14,12 +14,12 @@
   min-width: 42px;
   margin-right: 5px;
 
-  &:last-child {
-    margin-right: 20px;
-  }
-
   span {
     font-size: 12px;
     font-weight: 600;
+  }
+
+  &:last-child {
+    margin-right: 20px;
   }
 }

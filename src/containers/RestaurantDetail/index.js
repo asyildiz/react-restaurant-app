@@ -1,19 +1,12 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import React, {useEffect} from "react";
+import {useDispatch, useSelector} from "react-redux";
 import RestaurantHeader from "../../components/RestaurantHeader";
 import Menu from "../../components/Menu";
 import Cart from "../../components/Cart";
-import {
-  fetchRestaurant,
-  fetchRestaurantMenu,
-} from "../../redux/restaurant/actions";
-import {
-  addToCart,
-  removeFromCart,
-  updateCart,
-} from "../../redux/cart/actions";
-import { getRestaurant } from "../../redux/restaurant/selectors";
-import { getCart } from "../../redux/cart/selector";
+import {fetchRestaurant, fetchRestaurantMenu,} from "../../redux/restaurant/actions";
+import {addToCart, removeFromCart, updateCart,} from "../../redux/cart/actions";
+import {getRestaurant} from "../../redux/restaurant/selectors";
+import {getCart} from "../../redux/cart/selector";
 import "./style.scss";
 
 export const RestaurantDetail = () => {
@@ -38,7 +31,7 @@ export const RestaurantDetail = () => {
           onRemoveClick={(id) => dispatch(removeFromCart(id))}
         />
       </div>
-      <div className="col-md-8">
+      <div className="col-md-8 mt-20">
         <RestaurantHeader
           restaurantName={restaurant.name}
           minimumPrice={restaurant.minimumPrice}
