@@ -23,4 +23,4 @@ Run `npm start` command.
 You can access the React application via http://localhost:3000,
 ```
 
-Any questions : <akifsafayildiz@gmail.com>
+Any questions: <akifsafayildiz@gmail.com>
