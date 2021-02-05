@@ -1,0 +1,34 @@
+.ys-icons {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-image: url("../../assets/bigger-icons.png");
+  background-repeat: no-repeat;
+  position: relative;
+
+  &.bike {
+    background-position: -311px -452px;
+    width: 30px;
+    height: 18px;
+  }
+
+  &.price {
+    background-position: -352px -476px;
+    width: 24px;
+    height: 19px;
+  }
+
+  &.empty-basket {
+    background-position: -514px 0;
+    width: 47px;
+    height: 41px;
+  }
+
+  &.small-close {
+    background-image: url("../../assets/small-icons.webp");
+    width: 7px;
+    height: 7px;
+    background-position: -179px -385px;
+    cursor: pointer;
+  }
+}

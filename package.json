@@ -4,7 +4,8 @@
   "description": "React Yemeksepeti Demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development --env development --hot --port 3000",
+    "build": "node_modules/.bin/webpack --config webpack.config.js --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-hot-loader": "^4.13.0"
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
@@ -28,9 +31,14 @@
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.20.2",
     "webpack-cli": "^4.5.0",

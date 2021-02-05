@@ -1,0 +1,36 @@
+@import "src/theme/Colors";
+
+.actions {
+  margin-right: 10px;
+}
+
+.item {
+  flex: 1;
+  font-size: 12px;
+}
+
+.price {
+  span {
+    font-size: 12px;
+    text-align: right;
+    color: $color-blanze-orange;
+    font-weight: bold;
+  }
+}
+
+.title {
+  a {
+    color: $color-blanze-orange;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .description {
+    display: inline-block;
+    margin-top: 4px;
+  }
+}
+
+li:hover {
+  background-color: $menu-item-hover;
+}

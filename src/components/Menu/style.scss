@@ -1,0 +1,32 @@
+@import "./src/theme/Colors.scss";
+
+.list-head {
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.list-body {
+  ul {
+    margin: 0;
+  }
+
+  li {
+    position: relative;
+    border-bottom: 1px solid $color-concrete;
+    padding: 7px 15px;
+    display: flex;
+  }
+}
+
+.list-head,
+.list-body {
+  border: 1px solid $color-concrete;
+  background-color: $color-white;
+  border-radius: 3px 3px 0 0;
+}
+
+.restaurant-detail-box {
+  margin-bottom: 22px;
+}

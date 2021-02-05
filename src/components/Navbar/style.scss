@@ -1,0 +1,15 @@
+@import "./src/theme/Colors";
+
+.navbar {
+  background-color: $color-primary;
+  position: relative;
+  top: 0;
+  height: 80px;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
